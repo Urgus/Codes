@@ -30,5 +30,17 @@ public class RayCaster : MonoBehaviour {
 				}
 			}
 			}
+		if (Input.GetMouseButton (1)){
+			Vector3 forward = transform.TransformDirection (Vector3.forward) * 100;
+			Debug.DrawRay (transform.position, forward, Color.red);
+
+			if (Physics.Raycast (transform.position, (forward), out hit)){
+				theDistance = hit.distance;
+				if(hit.rigidbody)
+				{
+					hit.rigidbody.AddForceAtPosition(transform.forward * -10, hit.point);
+				}
+			}
+		}
 	}
 }
