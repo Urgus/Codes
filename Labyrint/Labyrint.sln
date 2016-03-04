@@ -5,6 +5,8 @@ Project("{829852F1-9340-A98C-4CC8-520CAC7F5FDE}") = "Labyrint", "Assembly-CSharp
 EndProject
 Project("{829852F1-9340-A98C-4CC8-520CAC7F5FDE}") = "Labyrint", "Assembly-CSharp.csproj", "{7345F8C1-C965-53B4-85E7-717D88C3645D}"
 EndProject
+Project("{829852F1-9340-A98C-4CC8-520CAC7F5FDE}") = "Labyrint", "Assembly-CSharp-Editor.csproj", "{88E3AC98-DE3E-3D95-5526-B49AC3ACDDBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{7345F8C1-C965-53B4-85E7-717D88C3645D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7345F8C1-C965-53B4-85E7-717D88C3645D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7345F8C1-C965-53B4-85E7-717D88C3645D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E3AC98-DE3E-3D95-5526-B49AC3ACDDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E3AC98-DE3E-3D95-5526-B49AC3ACDDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E3AC98-DE3E-3D95-5526-B49AC3ACDDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E3AC98-DE3E-3D95-5526-B49AC3ACDDBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
